@@ -11,20 +11,32 @@
     <main class="container">
         <section>
             <header>HOME</header>
-            <h1>0</h1>
-            <button>+1</button>
-            <button>+2</button>
-            <button>+3</button>
+            <h1 id="home-no">0</h1>
+            <button onclick="one()">+1</button>
+            <button onclick="two()">+2</button>
+            <button onclick="three()">+3</button><br>
+
+            <button onclick="onee()">-1</button>
+            <button onclick="twoo()">-2</button>
+            <button onclick="threee()">-3</button>
         </section>
 
         <section>
             <header>GUEST</header>
-            <h1>0</h1>
-            <button>+1</button>
-            <button>+2</button>
-            <button>+3</button>
+            <h1 id="away-no">0</h1>
+            <button onclick="addone()">+1</button>
+            <button onclick="addtwo()">+2</button>
+            <button onclick="addthree()">+3</button><br>
+
+            <button onclick="subone()">-1</button>
+            <button onclick="subtwo()">-2</button>
+            <button onclick="subthree()">-3</button><br>
+
+            <button onclick="endgame()" id="end">END GAME</button>
         </section>
 
     </main>
+
+    <script src="index.js"></script>
 </body>
 </html>

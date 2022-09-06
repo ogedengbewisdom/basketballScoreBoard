@@ -11,7 +11,7 @@ body {
 
 .container {
     width: 575px;
-    height: 385px;
+    height: 470px;
     margin: auto;
     text-align: center;
     background: #1B244A;
@@ -61,4 +61,10 @@ button {
 
 button:hover {
     background: #a3a2a2;
+}
+
+#end {
+    padding: 10px;
+    width: 150px;
+    
 }
